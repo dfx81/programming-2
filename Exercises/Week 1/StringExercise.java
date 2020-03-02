@@ -1,8 +1,8 @@
-/* Revision.java
+/* StringExercise.java
  * Author: Danial Fitri
  */
 
-class Revision // Start of class
+class StringExercise // Start of class
 {
     // The start of main method
     public static void main(String[] args)
