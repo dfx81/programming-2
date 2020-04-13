@@ -5,7 +5,7 @@ class StaffIncomeReport
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        Staff staff;
+        Developer dev;
         Income income;
         
         String name;
@@ -27,8 +27,8 @@ class StaffIncomeReport
         tax = in.nextDouble();
         
         income = new Income(incomeType, amount, tax);
-        staff = new Staff(name, id, income);
-        staff.displayStaffInfo();
-        staff.displayIncomeInfo();
+        dev = new Developer(name, id, income);
+        dev.displayStaffInfo();
+        dev.displayIncomeInfo();
     }
 }
