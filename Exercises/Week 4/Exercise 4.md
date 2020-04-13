@@ -3,15 +3,16 @@
 - "3"
 - Modified code:
 
-    `// Constructor
-     public QuestionOne() {count = 1;}
+`// Constructor
+ public QuestionOne() {count = 1;}
 
-     // Modified main
-     QuestionOne q1;
-     q1 = new QuestionOne();
-     q1.increment();
-     q1.increment();
-     System.out.println(q1.getCount());`
+ // Modified main
+ QuestionOne q1;
+ q1 = new QuestionOne();
+ q1.increment();
+ q1.increment();
+ System.out.println(q1.getCount());
+`
 
 # Question 2
 
