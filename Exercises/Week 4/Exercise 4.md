@@ -3,34 +3,32 @@
 - "3"
 - Modified code:
 
-    // Constructor
-    public QuestionOne() {count = 1;}
+    `// Constructor
+     public QuestionOne() {count = 1;}
 
-    // Modified main
-    QuestionOne q1;
-    q1 = new QuestionOne();
-    q1.increment();
-    q1.increment();
-    System.out.println(q1.getCount());
+     // Modified main
+     QuestionOne q1;
+     q1 = new QuestionOne();
+     q1.increment();
+     q1.increment();
+     System.out.println(q1.getCount());`
 
 # Question 2
 
 a)
 
-|----
 | Staff
-|----
+|----|
 |`- String name`
 |`- String staffID`
 |`- double salary`
 |`- int workingDay`
-|----
+|----|
 |`+ void setStaffInfo(String nm, String id, int wDay)`
 |`+ void calculateSalary()`
 |`+ double getSalary()`
 |`+ String getName()`
 |`+ String getStaffID()`
-|----
 
 b)
 
