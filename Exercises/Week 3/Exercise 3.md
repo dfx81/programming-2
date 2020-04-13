@@ -33,11 +33,15 @@
 
 # Question 6
 
-a) `Scanner in = new Scanner(System.in);`
-b) `int x = in.nextInt(); int y = in.nextInt();`
-c) `System.out.println(Math.pow(x, y));`
+a) `Scanner in = new Scanner(System.in);`  
+
+b) `int x = in.nextInt(); int y = in.nextInt();`  
+
+c) `System.out.println(Math.pow(x, y));`  
+
 
 # Question 7
 
-a) `System.out.println(text1.length() + text2.length() + text3.length());`
+a) `System.out.println(text1.length() + text2.length() + text3.length());`  
+
 b) `System.out.println(text2.substring(0, text2.indexOf("S")) + text1.substring(text1.indexOf("C"), text1.length()));`
